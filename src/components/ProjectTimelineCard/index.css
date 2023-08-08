@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.project_container {
+  display: flex;
+  flex-direction: column;
+}
+.image_project {
+  height: 280px;
+  width: 380px;
+  border-radius: 10px;
+}
+
+.header_container_project {
+  padding: 0px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading_project {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'roboto';
+  color: #171f46;
+}
+.calender_container {
+  display: flex;
+  align-items: center;
+}
+.calender_icon {
+  color: #171f46;
+  font-size: 18px;
+}
+.calender_time {
+  font-size: 15px;
+  margin-left: 5px;
+
+  font-family: 'roboto';
+  color: #171f46;
+}
+.description_project {
+  font-size: 15px;
+  font-family: 'roboto';
+  color: #1e293b;
+}
+.my_link {
+  font-size: 15px;
+  font-family: 'roboto';
+  color: #0967d2;
+  text-decoration: none;
+}

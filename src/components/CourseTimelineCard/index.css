@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.course_container {
+  display: flex;
+  flex-direction: column;
+}
+.header_container {
+  padding: 0px 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading_course {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'roboto';
+  color: #171f46;
+}
+.clock_container {
+  display: flex;
+  align-items: center;
+}
+.clock_icon {
+  color: #171f46;
+  font-size: 18px;
+}
+.clock_time {
+  font-size: 15px;
+  margin-left: 5px;
+  font-family: 'roboto';
+  color: #171f46;
+}
+.description_course {
+  font-size: 15px;
+  font-family: 'roboto';
+  color: #1e293b;
+}
+.skills_container {
+  margin-left: 0px;
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.my_skills {
+  text-align: center;
+
+  padding: 8px;
+  line-height: 1.6;
+  margin: 2px;
+  background-color: #c9c9c9;
+  border-radius: 5px;
+
+  /* min-height: 30px; */
+  font-size: 10px;
+  font-family: 'roboto';
+  font-weight: 700;
+  color: #1e293b;
+}
